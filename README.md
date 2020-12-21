@@ -1,2 +1,2 @@
 # p5
-this is daryn wang's p5 project
+this is Daryn Wang's p5 project
