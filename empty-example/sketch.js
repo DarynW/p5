@@ -84,7 +84,7 @@ function draw() {
   text('(btw these buttons do not work)', windowWidth*0.485, windowHeight*0.18)
 
   //Instruction boxes
-  fill (150)
+  fill (190)
   rect(inputWindowWidth*.15, inputWindowHeight*.15, inputWindowWidth*1.6, inputWindowWidth*0.5, 5);
   textSize(12)
   fill(1)
