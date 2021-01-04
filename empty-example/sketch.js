@@ -79,6 +79,23 @@ function draw() {
   fill(1);
   textAlign(CENTER, TOP)
   text('EZ Bracket', windowWidth*0.485, windowHeight*0.05)
+  textSize(15)
+  text('created by: Daryn Wang', windowWidth*0.485, windowHeight*0.112)
+  text('(btw these buttons do not work)', windowWidth*0.485, windowHeight*0.18)
+
+  //Instruction boxes
+  fill (150)
+  rect(inputWindowWidth*.15, inputWindowHeight*.15, inputWindowWidth*1.5, inputWindowWidth*0.5, 5);
+  textSize(12)
+  fill(1)
+  textAlign(LEFT)
+  text('INSTRUCTIONS', inputWindowWidth*.18, inputWindowHeight*.18)
+  text('1. Put your browser in fullscreen for best viewing experience', inputWindowWidth*.18, inputWindowHeight*.25)
+  text('2. click the white input boxes and input the names of your teams/objects', inputWindowWidth*.18, inputWindowHeight*.32)
+  text('3. click the calculate score button to start RNGed scores', inputWindowWidth*.18, inputWindowHeight*.39)
+  text('4. click it again to finalize scores', inputWindowWidth*.18, inputWindowHeight*.46)
+  text('5. repeat steps 3-4 for the other bracket and for the championship', inputWindowWidth*.18, inputWindowHeight*.53)
+  text('6. See who won! and refresh page to play again', inputWindowWidth*.18, inputWindowHeight*.60)
 
   fill(255, 204, 0)
   rect(inputWindowWidth*0.47, inputWindowHeight, inputWindowWidth*0.7, inputWindowWidth*0.2, 20);
